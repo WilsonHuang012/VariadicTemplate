@@ -43,6 +43,7 @@ std::string format(const char *s, T first, Rest... rest)
 
 int main()
 {
+	std::cout << sum(1, 2, 3, 4, 5) << std::endl;
 	std::string s = format("{} {} {}", "hello", 1, 5.2f);
 	std::cout << s;
 	return 0;
